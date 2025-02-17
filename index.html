@@ -51,9 +51,8 @@
             </div>
         </header>
         <!-- detailed info -->
-        <main class="flex gap-x-10 mt-10">
-            <div class="w-2/6">
-                <!-- contact details -->
+        <main class="flex flex-col md:flex-row gap-x-5">
+            <div class="w-full md:w-2/6 py-5">
                 <strong class="text-xl font-medium">Contact Details</strong>
                 <ul class="mt-2 mb-10">
                     <li class="px-2 mt-1"><strong class="mr-1">E-mail </strong>
@@ -63,7 +62,6 @@
                             Missouri, US</span></li>
                 </ul>
 
-                <!-- skills -->
                 <strong class="text-xl font-medium">Skills</strong>
                 <ul class="mt-2 mb-10">
                     <li class="px-2 mt-1">C#/.Net</li>
@@ -91,8 +89,7 @@
                     <li class="px-2 mt-1">IoT</li>
                 </ul>
             </div>
-            <!-- info -->
-            <div class="w-4/6">
+            <div class="w-full flex flex-col md:w-4/6 py-10">
                 <section>
                     <h2 class="text-2xl pb-1 border-b font-semibold">About</h2>
                     <p class="mt-4 text-xs">
@@ -112,12 +109,12 @@
                     <ul class="mt-1">
                         <li class="py-2">
                             <div class="flex justify-between my-1">
-                                <strong>YourKhora - Office Space Rentals</strong>
+                                <strong>YourKhora</strong>
                                 <p class="flex">
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">C#</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">C#</span>
                                     <span
-                                        class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Typescript</span>
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">React</span>
+                                        class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">Typescript</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">React</span>
                                 </p>
                             </div>
                             <p class="text-xs">
@@ -136,8 +133,9 @@
                             <div class="flex justify-between my-1">
                                 <strong>Word Search Solver</strong>
                                 <p class="flex">
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Python</span>
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">React</span>
+                                    <span
+                                        class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">Python</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">React</span>
                                 </p>
                             </div>
                             <p class="text-xs">Word Search Solver – AI-Powered Puzzle Solving
@@ -154,9 +152,10 @@
                             <div class="flex justify-between my-1">
                                 <strong>SimulIDE</strong>
                                 <p class="flex">
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Java</span>
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Kotlin</span>
-                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTMx</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">Java</span>
+                                    <span
+                                        class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">Kotlin</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded h-6">HTMx</span>
                                 </p>
                             </div>
                             <p class="text-xs">
@@ -179,8 +178,12 @@
                         <li class="pt-2">
                             <p class="flex justify-between text-sm"><strong class="text-base">CGI</strong>Sept 2023 -
                                 Present</p>
-                            <p class="flex justify-between text-base">Senior Developer/Consultant<small>Southwest
-                                    Airlines</small></p>
+                            <p class="flex flex-col md:flex-row md:justify-between text-base">
+                                Senior Developer/Consultant
+                                <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                    Southwest
+                                    Airlines</small>
+                            </p>
                             <p class="text-justify text-xs">
                                 Spearheaded inter-service communications within an AWS ecosystem, ensuring seamless
                                 integration. Partnered with cross-functional teams to deploy and verify applications
@@ -194,7 +197,11 @@
                         <li class="pt-2">
                             <p class="flex justify-between text-sm"><strong class="text-base">7Factor
                                     Software</strong>July 2022 - Sept 2023</p>
-                            <p class="flex justify-between text-base">Team Lead/Architect<small>DiagGo</small></p>
+                            <p class="flex flex-col md:flex-row md:justify-between text-base">
+                                Team Lead/Architect
+                                <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                    DiagGo</small>
+                            </p>
                             <p class="text-justify text-xs">
                                 Designed and rolled out a microservices infrastructure within AWS. Led an 8-member team
                                 across mobile and API development, fostering collaboration and innovation. Built an
@@ -204,7 +211,10 @@
                                 eliminating the need for third-party user management solutions. Refined service
                                 architecture and mentored junior developers, significantly boosting productivity.
                             </p>
-                            <p class="flex justify-end text-base"><small>MedeAnalytics</small></p>
+                            <p class="flex flex-col md:flex-row md:justify-between text-base">
+                                <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                    MedeAnalytics</small>
+                            </p>
                             <p class="text-justify text-xs">
                                 Migrated services from .NET Framework to .NET Core, optimizing performance. Enhanced
                                 team productivity by implementing automated tests and a CI/CD pipeline. Guided the team
@@ -216,8 +226,12 @@
                         <li class="pt-2">
                             <p class="flex justify-between text-sm"><strong class="text-base">World Wide
                                     Technology</strong>July 2015 - July 2022</p>
-                            <p class="flex justify-between text-base">Senior Software Engineer<small>Huntington
-                                    Bank</small></p>
+                            <p class="flex flex-col md:flex-row md:justify-between text-base">
+                                Senior Software Engineer
+                                <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                    Huntington Bank
+                                </small>
+                            </p>
                             <p class="text-justify text-xs">
                                 Developed microservices to manage internal and external transfer flows. Designed durable
                                 and consistent service interactions and data flows. Collaborated with client to harvest
@@ -227,8 +241,11 @@
                                 design and assist in onboarding.
                             </p>
                         </li>
-                        <p class="flex justify-end text-base"><small>Codename Book
-                                Service</small></p>
+                        <p class="flex flex-col md:flex-row md:justify-between text-base">
+                            <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                Codename Book
+                                Service</small>
+                        </p>
                         <p class="text-justify text-xs">
                             Built a GraphQL service for mobile frontend consumption. Migrated microservices to a
                             serverless architecture in AWS, enhancing scalability. Created a CI/CD pipeline in
@@ -238,8 +255,10 @@
                             ambiguity and streamline backlog management. Contributed to an app with 4.9 stars on the
                             app store and over 6K ratings.
                         </p>
-                        <p class="flex justify-end text-base"><small>Ascension
-                                Healthcare</small></p>
+                        <p class="flex flex-col md:flex-row md:justify-between text-base">
+                            <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                Ascension Healthcare</small>
+                        </p>
                         <p class="text-justify text-xs">
                             Developed a microservices backend that supported a React Native frontend for scheduling
                             and learning materials. Integrated with Kronos for efficient timekeeping and scheduling.
@@ -247,21 +266,30 @@
                             functionality. Created data flow diagrams to assist in architecture design and team
                             onboarding.
                         </p>
-                        <p class="flex justify-end text-base"><small>DaVita</small></p>
+                        <p class="flex flex-col md:flex-row md:justify-between text-base">
+                            <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                DaVita</small>
+                        </p>
                         <p class="text-justify text-xs">
                             Developed innovative metrics to track floor population without collecting PII, ensuring
                             privacy. Analyzed employee office usage trends, saving 30% of the projected budget by
                             optimizing space utilization.
                         </p>
-                        <p class="flex justify-end text-base"><small>BusCentral</small></p>
+                        <p class="flex flex-col md:flex-row md:justify-between text-base">
+                            <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                BusCentral</small>
+                        </p>
                         <p class="text-justify text-xs">
                             Integrated with Davra backend for IoT-based vehicle diagnostics monitoring. Implemented
                             bus tracking and route management via MapKit. Enabled live video viewing to reduce the
                             number of bus monitors needed. Incorporated emergency beacon functionality for enhanced
                             safety.
                         </p>
-                        <p class="flex justify-end text-base"><small>Little Caesars
-                                Pizza Portal</small></p>
+                        <p class="flex flex-col md:flex-row md:justify-between text-base">
+                            <small class="font-semibold text-slate-500 mt-3 md:mt-0">
+                                Little Caesars
+                                Pizza Portal</small>
+                        </p>
                         <p class="text-justify text-xs">
                             Designed infrastructure to triple employee efficiency. Created redundancies to maintain
                             store operations during internet outages. Developed an order progress tracker and
@@ -271,7 +299,7 @@
                         <li class="pt-2">
                             <p class="flex justify-between text-sm"><strong class="text-base">CACI</strong>June 2011 -
                                 June 2015</p>
-                            <p class="flex justify-between text-base">Software Engineer</p>
+                            <p class="flex flex-col md:flex-row md:justify-between text-base">
                             <p class="text-justify text-xs">
                                 Gamified staff training for government processes, boosting engagement. Streamlined
                                 client processes with a CRUD app for secure document sharing. Created a DSL to
